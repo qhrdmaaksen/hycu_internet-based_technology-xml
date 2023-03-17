@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE booklist SYSTEM "ex2-2.dtd"> <!--ex2-2.dtd 에서 정의한 type 에 따라 문서 작성해야한다고 설정-->
+
+<booklist>
+	<book>
+		<title>Java XML</title>
+		<author>홍길동</author>
+		<publisher>2004</publisher>
+		<price>20000</price>
+	</book>
+</booklist>
