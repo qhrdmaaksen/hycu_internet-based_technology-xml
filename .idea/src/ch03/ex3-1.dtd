@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+	<!ELEMENT students (univ,student)>
+	<!ELEMENT univ (#PCDATA)>
+	<!ELEMENT student (sno,name,age,phone,address)>
+	<!ELEMENT sno (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ENTITY univ_address "인천시 중구 중동">
+]>

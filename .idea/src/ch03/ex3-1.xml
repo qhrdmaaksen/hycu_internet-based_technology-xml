@@ -1,0 +1,10 @@
+<student>
+	<univ> &univ_address; </univ>
+	<student>
+		<sno> s100</sno>
+		<name> 홍길동 </name>
+		<age> 31 </age>
+		<phone>02-1234-5677</phone>
+		<address> 서울시 동대문구 </address>
+	</student>
+</student>
