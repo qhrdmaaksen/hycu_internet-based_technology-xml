@@ -1,0 +1,31 @@
+<my_selfs>
+    <my_self>
+        <my_name>이름 : 김민우</my_name>
+        <my_classNum>학번 : H202003095</my_classNum>
+        <my_uiv_department>학과 : 컴퓨터공학</my_uiv_department>
+        <my_gender>성별 : 남자</my_gender>
+        <my_address>주소 : 인천시 중구 중동</my_address>
+    </my_self>
+    <my_company>
+        <company>회사명 : 레드덕</company>
+        <department>부서 : QA</department>
+        <position>직급 : 사원</position>
+    </my_company>
+    <my_self_content>
+        <adventage>
+        사이버대학교의 장점 : 1- 대학교 출석 이동 시간 단축, 2- 동영상 강의로 인한 반복 학습 가능, 3- 어디에서나 강의 학습 가능 등 &#10;
+        </adventage>
+        <weakness>
+        사이버대학교의 단점 : 1- 강의 컨텐츠의 최신화 미흡, 2- 강의 출석에 대한 압박감이 낮아 강의를 미뤄서 학습하게됨 등 &#10;
+        </weakness>
+        <univ_select>
+        사이버대학교 잘 선택했다고 느낄때 : 1- 일과 학습의 병행 가능, 2- 학습의 자유로움, 3- 학습의 효율성 등 &#10;
+        </univ_select>
+        <univ_regret>
+        사이버대학교 선택 후회 : 아직 없음 &#10;
+        </univ_regret>
+        <univ_reason_for_select>
+        한양사이버대학교 선택 이유 : 인터넷 매체 검색을 통해 질 높은 교육을 받을 수 있는 사이버대학교를 찾던 중, 한양사이버대학교를 알게되어 선택 &#10;
+        </univ_reason_for_select>
+    </my_self_content>
+</my_selfs>

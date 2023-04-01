@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE my_selfs[
+<!ELEMENT my_self (my_name,my_classNum, my_uiv_department, my_gender, my_address)>
+<!ELEMENT my_name (#PCDATA)>
+<!ELEMENT my_classNum (#PCDATA)>
+<!ELEMENT my_uiv_department (#PCDATA)>
+<!ELEMENT my_gender (#PCDATA)>
+<!ELEMENT my_address (#PCDATA)>
+<!ELEMENT my_self_content (adventage, weakness, univ_select, univ_regret, univ_reason_for_selection)>
+<!ELEMENT my_company (company, department, position)>
+]>
