@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "ex3-2.dtd">
+<students>
+   <univ> 서울 성동구 행당동 한양대학교 </univ>
+   <student>
+        <sno> s100</sno>
+        <name> 홍길동 </name>
+        <age> 31 </age>
+        <phone>02-234-8989</phone>
+        <address> 서울시 중구 신당동 </address>
+   </student>
+</students>  

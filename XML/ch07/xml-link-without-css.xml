@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<?xml-stylesheet type=“text/css” href=“xml-link.css”?>
+-->
+<students>
+     <student>
+          <name> 홍길동(blue) </name>
+          <age> 21(red) </age>
+          <address> 서울시 성동구 행당동(green) </address>
+          <email> gdhong@hycu.ac.kr(black) </email>
+     </student> 
+</students>

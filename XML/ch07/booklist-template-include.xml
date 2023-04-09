@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XSL 문서 적용 -->
+<?xml-stylesheet type="text/xsl" href="booklist-template-include-main.xsl"?>
+
+<booklist>
+     <book kind="컴퓨터">
+          <title>서블릿과 JSP프로그래밍</title>
+          <author>심완보</author>
+          <publisher>지앤북</publisher>
+          <price>15000</price>
+     </book>
+     <book kind="소설">
+          <title>엄마를 부탁해</title>
+          <author>신경숙</author>
+          <publisher>창비</publisher>
+          <price>10000</price>
+     </book>
+     <book kind="컴퓨터">
+          <title>알짜만 골라배우는 안드로이드 프로그래밍 2</title>
+          <author>마크 머피</author>
+          <publisher>에이콘</publisher>
+          <price>30000</price>
+     </book> 
+</booklist>

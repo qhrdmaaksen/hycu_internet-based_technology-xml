@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<booklist  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="extension.xsd">
+    
+    <book id="b1" kind="철학">
+        <title>공정하다는 착각</title>
+        <author>마이클 샌델</author>
+        <publisher>와이즈베리</publisher>
+        <price>16200</price>
+    </book>
+ <book id="b2" kind="컴퓨터">
+        <title>서블릿과 JSP프로그래밍</title>
+        <author>심완보</author>
+        <publisher>지앤북</publisher>
+        <price>15000</price>
+    </book>
+</booklist>

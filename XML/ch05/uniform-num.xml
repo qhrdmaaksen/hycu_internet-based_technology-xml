@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniform xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="union.xsd">
+    <color>Black</color>
+    <size>180</size>
+</uniform>

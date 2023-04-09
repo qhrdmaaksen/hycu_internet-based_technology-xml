@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="student">
+        <xsd:complexType>
+        <xsd:group ref="nameGroup"/>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:group name="nameGroup">
+        <xsd:sequence>
+        <xsd:element name="firstName" type="xsd:string"/>
+        <xsd:element name="lastName" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:group>
+</xsd:schema>
+          

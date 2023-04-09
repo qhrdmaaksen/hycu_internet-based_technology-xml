@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<student>
+    <sno> s100</sno>
+    <name> 하지원</name>
+    <age> 44 </age>
+    <phone>02-299-8989</phone>
+    <address> 서울압구정 </address>
+</student>

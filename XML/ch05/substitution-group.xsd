@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- 글로벌 엘리먼트 선언 -->
+    <xsd:element name="author" type="xsd:string"/>
+    <!-- substitutionGroup에 속하는 엘리먼트 -->	
+    <xsd:element name="writer" type="xsd:string" substitutionGroup="author"/>
+
+    <!-- 루트 엘리먼트 선언 -->
+    <xsd:element name="booklist">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="book" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+		      <xsd:element name="title" type="xsd:string"/>
+		     <!-- 글로벌 엘리먼트 참조 -->
+                            <xsd:element ref="author"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

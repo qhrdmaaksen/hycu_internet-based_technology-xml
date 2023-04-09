@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "movies.dtd">
+<movies>
+     <movie>
+          <name>기생충</name>
+          <company name="CJ그룹">
+               <address>
+                    <city>서울시</city>
+                    <gu>중구</gu>
+                    <dong>소월로</dong>
+               </address>
+               <phone>02-726-8114</phone>
+               <fax>02-726-8219</fax>
+               <url href="http://www.cj.net"/>
+		</company>
+          <hero>송강호</hero>
+          <hero>이선균</hero>
+          <price unit="원">12,000</price>
+          <date>
+               <year>2019</year>
+               <month>5</month>
+               <day>30</day>
+          </date>
+     </movie>
+</movies>

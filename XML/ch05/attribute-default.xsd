@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="student"> 
+    <complexType> 
+        <sequence> 
+            <element name="koreanName" type="string"/> 
+            <element name="englishName" type="string"/> 
+        </sequence> 
+        <attribute name="sno" default="s001"/> 
+    </complexType> 
+</element> 
+</schema>

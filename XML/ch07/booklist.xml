@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 프로세싱 지시자 -->
+<?xml-stylesheet type="text/xsl" href="booklist.xsl"?>
+
+<booklist>
+     <book id="b1" kind="computer"> 
+          <title>Java XML</title> 
+          <author>신민철</author> 
+          <publisher>Freelec</publisher> 
+          <price>25,000</price>
+     </book>
+</booklist>

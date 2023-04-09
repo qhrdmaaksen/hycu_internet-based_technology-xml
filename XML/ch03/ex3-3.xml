@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE booklist SYSTEM "ex3-3.dtd">	
+<booklist>
+	<book>
+		<title>태백산맥</title>
+		<author>조정래</author>
+		<image src="book1.png" type="png"/>
+	</book>
+	<book>
+		<title>공정하다는 착각</title>
+		<author>마이클 샌델</author>
+		<image src="book2.jpg" type="jpeg"/>
+	</book>
+	<book>
+		<title>제4차 산업혁명</title>
+		<author>클라우스 슈밥</author>
+		<image src="book3.bmp" type="bmp"/>
+	</book>
+</booklist>

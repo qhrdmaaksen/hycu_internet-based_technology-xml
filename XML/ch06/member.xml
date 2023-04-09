@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE members
+  [
+  <!ELEMENT members (member+)>
+  <!ELEMENT member (name, phone_no, salary)>
+  <!ATTLIST member 
+  no              ID      #REQUIRED
+  parent-no       IDREFS  #IMPLIED>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT phone_no (#PCDATA)>
+  <!ELEMENT salary (#PCDATA)>
+  ]>
+  
+<?xml-stylesheet type="text/xsl" href="member.xsl"?>
+<members>
+    <member no="P01">
+        <name>고종</name>
+        <phone_no>02-100-1001</phone_no>
+        <salary>10000000</salary>
+    </member>
+    <member no="P02">
+        <name>명성황후</name>
+        <phone_no>02-100-1002</phone_no>
+        <salary>5000000</salary>
+    </member>
+    <member no="P03" parent-no= "P02 P03">
+        <name>순종</name>
+        <phone_no>02-100-1003</phone_no>
+        <salary>3000000</salary>
+    </member>
+</members>

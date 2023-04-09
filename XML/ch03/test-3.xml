@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+  <!ELEMENT student (id,name)>
+  <!ELEMENT id    ANY>
+  <!ELEMENT name  ANY>
+  ]>
+<student>
+    <id>st20180001</id>
+    <name>
+        <![CDATA[<한글>홍길동</한글> <영문>Hong, Gil Dong</영문>]]>
+    </name>
+</student>

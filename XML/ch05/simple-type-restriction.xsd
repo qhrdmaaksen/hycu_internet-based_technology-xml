@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="address">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="city" type="xsd:string"/>
+                    <xsd:element name="apartment" type="aptType"/>
+                    <xsd:element name="room" type="intType"/>
+                    <xsd:element name="zipcode" type="zipcodeType"/>
+              </xsd:sequence>
+          </xsd:complexType>
+      </xsd:element>
+ <xsd:simpleType name="zipcodeType">
+        <xsd:restriction base="xsd:string">
+              <xsd:pattern value="\d{3}-\d{3}"/>
+        </xsd:restriction>
+  </xsd:simpleType>
+    
+  <xsd:simpleType name="intType">
+        <xsd:restriction base="xsd:integer">
+              <xsd:minInclusive value="1"/>
+              <xsd:maxInclusive value="50"/>
+        </xsd:restriction>  
+  </xsd:simpleType>
+   <xsd:simpleType name="aptType">
+        <xsd:restriction base="xsd:string">
+              <xsd:enumeration value="대우푸르지오"/>
+              <xsd:enumeration value="현대아이파크"/>
+              <xsd:enumeration value="대림e편한"/>
+              <xsd:enumeration value="삼성레미안"/>
+        </xsd:restriction>  
+      </xsd:simpleType>
+    
+</xsd:schema>
+      

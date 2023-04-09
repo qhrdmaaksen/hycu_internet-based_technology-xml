@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="address" type="addressType"/>
+
+    <xsd:complexType name="addressType">
+        <xsd:all>
+            <xsd:element name="city" type="xsd:string"/>
+            <xsd:element name="gu" type="xsd:string"/>
+            <xsd:element name="street" type="xsd:string"/>
+            <xsd:element name="zipcode" type="xsd:string"/>
+        </xsd:all>
+    </xsd:complexType>
+</xsd:schema>
